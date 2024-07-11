@@ -14,7 +14,7 @@
 
 ![Resimler/Aspose.Words.635eb80e-eb2b-4548-8e10-fece4bac680a.004.png](Resimler/Aspose.Words.635eb80e-eb2b-4548-8e10-fece4bac680a.004.png)
 
-**Not :** Hazır image dosyasını (.net runtime image) Docker Hub’da bulabilirsin.Runtime projenin çalışabilmesini sağlayan araçları barındırırken dev projenin geliştirilebilmesi için gereken koşullarıda sunar.Boyutu daha az ve performanslı olduğu için image dosyası olarak runtime kullanıyoruz.
+**Not :** Hazır image dosyasını (.net runtime image) Docker Hub’da bulabilirsin.Runtime projenin çalışabilmesini sağlayan araçları barındırırken sdk projenin geliştirilebilmesi için gereken koşullarıda sunar.Boyutu daha az ve performanslı olduğu için image dosyası olarak runtime kullanıyoruz.
 
 ![Resimler/Aspose.Words.635eb80e-eb2b-4548-8e10-fece4bac680a.005.png](Resimler/Aspose.Words.635eb80e-eb2b-4548-8e10-fece4bac680a.005.png)
 
@@ -34,21 +34,21 @@
 
 ![Resimler/Aspose.Words.635eb80e-eb2b-4548-8e10-fece4bac680a.010.png](Resimler/Aspose.Words.635eb80e-eb2b-4548-8e10-fece4bac680a.010.png)
 
-**Not :** *“docker images“* komutu ile mevcut imageleri listeleyebilirsin.
+**Not :** *“ docker images “* komutu ile mevcut imageleri listeleyebilirsin.
 
 ![Resimler/Aspose.Words.635eb80e-eb2b-4548-8e10-fece4bac680a.011.png](Resimler/Aspose.Words.635eb80e-eb2b-4548-8e10-fece4bac680a.011.png)
 
-- Container oluşturmak için *“docker create –name <container name> <kullanılacak image”*
+- Container oluşturmak için *“ docker create –name <container name> <kullanılacak image> ”*
 
 ![Resimler/Aspose.Words.635eb80e-eb2b-4548-8e10-fece4bac680a.012.png](Resimler/Aspose.Words.635eb80e-eb2b-4548-8e10-fece4bac680a.012.png)
 
-__Not : *“*__*docker ps”* komutu sadece çalışan containerları listeler*.”docker ps -a”* tüm containerları listeler. 
+**Not :** *“ docker ps ”* komutu sadece çalışan containerları listeler.” docker ps -a ”* tüm containerları listeler. 
 
 **Not :** Bu işlemler anında bilgisayarda Docer Desktop ayakta olmaldıır.Oluşan tüm image ve containerlar buradan da görülebilir.(Docker Desktop da giriş yapmalısın.)
 
-**Not :** *“docker start <container name>”* ve *“docker stop <container name>”* komutları ile containerlar başlatılıp durdurulabilir.
+**Not :** *“ docker start <container name> ”* ve *“ docker stop <container name> ”* komutları ile containerlar başlatılıp durdurulabilir.
 
-**Not :** Container ayaktayken (çalışıyorken) arka tarafta programı çalıştırır.Herhangi bir anda çıktıyı gözlemlemek için consoledan *“docker attach <container name>”* veya Docker Desktop’dan log kısmından izlenebilir.
+**Not :** Container ayaktayken (çalışıyorken) arka tarafta programı çalıştırır.Herhangi bir anda çıktıyı gözlemlemek için consoledan *“ docker attach <container name> ”* veya Docker Desktop’dan log kısmından izlenebilir.
 
 ![Resimler/Aspose.Words.635eb80e-eb2b-4548-8e10-fece4bac680a.013.png](Resimler/Aspose.Words.635eb80e-eb2b-4548-8e10-fece4bac680a.013.png)
 
